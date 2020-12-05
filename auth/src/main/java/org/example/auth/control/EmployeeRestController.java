@@ -95,6 +95,6 @@ public class EmployeeRestController {
         Employee emp = rsl.get();
         emp.getPersons().remove(person.get());
         store.save(emp);
-        return new ResponseEntity<>(rsl.get(), HttpStatus.OK);
+        return new ResponseEntity<>(emp, HttpStatus.OK);
     }
 }
