@@ -15,6 +15,7 @@
 
   <modules>
     <module>auth</module>
+    <module>rest_template</module>
   </modules>
 
   <packaging>pom</packaging>
